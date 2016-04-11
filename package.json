@@ -4,7 +4,7 @@
   "description": "first react fluxxor app",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "webpack --display-error-details --devtool source-map -d --watch",
     "build" : "webpack -p"
   },
   "author": "",
